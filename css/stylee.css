@@ -1,0 +1,401 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header .general{
+    padding: 2rem 0rem;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 7;
+    
+}
+header{
+    overflow: hidden;
+}
+.count{
+ color:aliceblue;
+    border-radius: 100%;
+    background-color: #000;
+}
+
+header .general .second ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin: 0;
+}
+header .general .second ul li a{
+   font-size: 16px;
+   font-weight: 400;
+   padding-right: 3rem;
+   font-family: 'Open Sans', sans-serif;
+   color: rgb(51, 51, 51);
+}
+header .general .third ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header .general .third a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+}
+ header .general ul li a:hover{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #c7a17a;
+}
+ header .general .third a:hover{
+     font-size: 16px;
+     font-weight: 400;
+     font-family: 'Open Sans', sans-serif;
+     color: #c7a17a ;
+}
+  header .general .second ul{
+    padding: 0;
+    width: 0;
+}
+  header .general .second .menu{
+    position: relative;
+    padding: 0;
+}
+  header .general .second .menu ul{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    background-color: white;
+    padding: 0rem 5rem;
+    margin-top: 2.57rem;
+    left: -2.1rem;
+    display: block;
+    padding: 0;
+}
+  header .general .second .menu:hover ul
+ {
+        position: absolute;
+        visibility: visible;
+        opacity: 1;
+        z-index: -1;
+        background-color: white;
+        padding: 0rem 5rem;
+        margin-top: 2.57rem;
+        left: -2.1rem;
+        display: block;
+      
+}
+  header .general .second .menu:hover ul li{
+    padding-bottom: .3rem;
+}
+  @media(max-width:576px){
+    header .general .second{
+        display: none;
+    }
+}
+  #first{
+    background-image: url(https://htmldemo.net/kofi/kofi/assets/images/hero-slider/home-2/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18rem 0rem;
+    overflow: hidden;
+  }
+  #first h5{
+    margin-bottom: 10px;
+    
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+  #first h2{
+    margin-bottom: 15px;
+    
+    font-size: 66px;
+    font-weight: 600;
+    color: white;
+    transition-delay: .8s;
+    transition-duration: 1s;
+    padding-right: 25rem;
+    
+  }
+  #first p{
+    margin-bottom: 50px;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    transition-delay: .8s;
+    transition-duration: 1s;
+    padding-right: 35rem;
+  }
+  #first a{
+    background-color: rgb(199, 161, 122);
+    padding: 16px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 14rem;
+  }
+  #first a:hover{
+    background-color: #212529;
+    padding: 16px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 14rem;
+}
+@media(max-width:576px){
+    #first{
+        padding: 15rem 0rem 11rem;
+        background-position-x: -45rem;
+        }
+        #first h2{
+        padding-right: 15rem;
+        font-size: 30px;
+    
+        }
+        #first p{
+            padding-right: 13rem;
+        }
+        #first h5{
+            font-size: 16px;
+          }
+          #first p{
+            font-size: 16px;
+            margin-bottom: 20px;
+          }
+}
+
+#second{
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+#second .general span{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(199, 161, 122);
+    margin-bottom: 15px;
+}
+#second .general{
+    padding-top: 6rem;
+}
+#second .general h2{
+     margin-bottom: 30px;
+     padding-bottom: 18px;
+     position: relative;
+     font-weight: 500;
+     font-size: 40px;
+     padding-top: 15px;
+
+}
+#second .general h2::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    content: "";
+    background-color: #1F2226;
+
+}
+#second .general .p1{
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+   line-height: 28px;
+   color:  rgb(51, 51, 51);
+
+}
+#second .general .p2{
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+   line-height: 28px;
+   color:  rgb(51, 51, 51);
+
+}
+#second .general a{
+    padding: 16px 35px;
+    font-weight: 600;
+     font-size: 16px;
+     color: white;
+     background-color: #212529;
+     border-radius: 5rem;
+}
+#second .general a:hover{
+    padding: 16px 35px;
+    font-weight: 600;
+     font-size: 16px;
+     color: white;
+     background-color: #212529;
+    background-color: rgb(199, 161, 122);
+    border-radius: 5rem;
+}
+@media(max-width:576px){
+    #second .general h2{
+        font-size: 30px;
+        padding-right: 0rem;
+      }
+      #second .general p{
+        font-size: 10px;
+        line-height: 28px;
+      }
+      #second .general1{
+        flex-direction: column-reverse;
+      }
+      #second .general a{
+        padding: 13px 30px;
+         font-size: 14px;
+    }
+    #second .general a:hover{
+        padding: 13px 30px;
+         font-size: 14px;
+    }
+}
+
+#third{
+    overflow: hidden;
+    display: flex;
+}
+#third .general{
+    padding-top: 5em;
+}
+#third .general p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    color: rgb(199, 161, 122);
+}
+#third .general h2{
+    font-size: 40px;
+    
+    letter-spacing: 0.25px;
+    color: rgb(31, 34, 38);
+}
+#third .general1 h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(31, 34, 38);
+}
+#third .general1 p{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24.5px;
+    color: rgb(51, 51, 51);
+}
+#third .general1 .box{
+    border:1px solid rgb(238, 238, 238);
+    background-color: white;
+    padding: 30px;
+}
+#third .general1{
+    margin-top: 3rem;
+}
+@media(max-width:576px){
+    #third .general p{
+        font-size: 16px;
+    }
+    #third .general h2{
+        font-size: 24px;
+    }
+    #third .general1 p{
+        padding-right: 13rem;
+    }
+}
+
+#fourth{
+    
+    overflow: hidden;
+   
+}
+#fourth .general{
+    margin-top: 8rem;
+}
+#fourth .general p{
+    color: rgb(199, 161, 122);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .25px;
+
+}
+#fourth .general h2{
+    color: rgb(31, 34, 38);
+    font-size: 40px;
+    font-weight: 500;
+
+}
+#fourth .general2{
+    margin-top: 3rem;
+}
+#fourth .general2 p{
+    color: rgb(199, 161, 122);
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+#fourth .general2 h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(31, 34, 38);
+    margin-bottom: 1rem;
+
+}
+#fourth .general2 .right{
+    border:1px solid rgb(229, 229, 229);
+    color: rgb(51, 51, 51);
+    padding:40px 50px;
+    
+}
+#fourth .general2 .right form input{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgb(229, 229, 229);
+}
+#fourth .general2 .right form input:focus{
+    outline: 1px solid rgb(199, 161, 122);
+}
+#fourth .general2 .right form textarea:focus{
+    outline: 1px solid rgb(199, 161, 122);
+}
+
+#fourth .general2 .left iframe{
+    width: 100%;
+}
+#fourth .right textarea{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px 50px; 
+    width: 100%;
+    border: 1px solid rgb(229, 229, 229);
+}
+#fourth .right .sbmt input{
+    background-color: rgb(31, 34, 38);
+    color: white;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+@media (max-width:576px) {
+  
+    #fourth .general2 .right{
+        padding: 2rem 2rem 0rem;
+    }
+    
+    #fourth .general2 .right form input{
+        padding: 15px 10px;
+    }
+}
